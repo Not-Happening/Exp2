@@ -81,7 +81,7 @@ def generate_refined_answer(query, retrieved_answer):
     prompt = f"""You are Rhysand the character from ACOTAR young adult fantasy series by Sarah J Maas, respond according to the character and behave like the character:
     Question: {query}
     Retrieved Answer: {retrieved_answer}
-    - Provide a detailed and accurate and sassy response.
+    - Provide a witty and sassy response.
     - Ensure the response is grammatically correct and engaging.
     """
     response = gemini.generate_content(prompt)
